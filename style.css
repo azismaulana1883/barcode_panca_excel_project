@@ -9,14 +9,15 @@
     }
 
         .product-name {
-            font-size: 13.7786px;
+            font-size: 10.5px;
             color: black;
             font-weight: bolder;
             font-family: Arial, Arial Narrow, sans-serif;
         }
 
         .product-model {
-            padding-right: 50px;
+            /* padding-right: 50px; */
+            text-align: left;
             font-size: 9.2px;
             font-family: Arial, sans-serif;
             font-weight: bold;
@@ -51,8 +52,9 @@
         }
 
         .product-code {
-            font-size: 8px;
-            padding-right: 92px;
+            font-size: 9.2px;
+            text-align: left;
+            /* padding-right: 92px; */
             font-family: sans-serif;
             color: black;
             font-weight: bold;
@@ -131,6 +133,7 @@
         }
 
         .information{
+            text-align: center;
             font-family: Arial, Arial Narrow, sans-serif;
             color: black;
             font-weight: bold;
@@ -156,13 +159,14 @@
     @media print {
         .product-name {
             font-family: Arial, Arial Narrow, sans-serif;
-            font-size: 10px;
+            font-size: 10.5px;
             color: black;
             font-weight: bolder;
         }
 
         .product-model {
-            padding-right: 50px;
+            /* padding-right: 50px; */
+            text-align: left;
             font-size: 9.2px;
             font-family: Arial, sans-serif;
             color: black;
@@ -198,8 +202,9 @@
         }
 
         .product-code {
-            font-size: 8px;
-            padding-right: 92px;
+            font-size: 9.2px;
+            text-align: left;
+            /* padding-right: 92px; */
             font-family: sans-serif;
             color: black;
             font-weight: bold;
@@ -291,6 +296,7 @@
         }
 
         .information {
+            text-align: center;
             font-family: Arial, Arial Narrow, sans-serif;
             color: black;
             font-weight: bold;
