@@ -10,8 +10,7 @@ error_reporting(E_ALL);
 <head>
     <meta charset="UTF-8">
     <title>Unggah File Excel</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="http://localhost/barcode_panca_excel/assets/css/bootstrap5.min.css" rel="stylesheet">
 </head>
 
 <body class="d-flex justify-content-center align-items-center min-vh-100">
