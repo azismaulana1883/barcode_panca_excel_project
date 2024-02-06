@@ -62,7 +62,7 @@ unset($_SESSION['excel_data']);
             if (!empty($row['Model Description']) && !empty($row['Model Number']) && !empty($row['SAP#']) && !empty($row['UPC Code'])) {
         ?>
                 <div class="row">
-                    <div class="col-lg-6 boxed">
+                    <div class="col-lg-6 boxed border">
                         <h1 class="product-name text-center "><b><?php echo $row['Model Description']; ?></b></h1>
                         <div class="model-lb">
                             <div class="product_brand" style="width: 130px;">
@@ -72,6 +72,7 @@ unset($_SESSION['excel_data']);
                             <!-- Menambahkan atribut jsbarcode-value dengan kode UPC yang valid -->
                             <svg class="barcode" jsbarcode-format="upc" jsbarcode-value="<?php echo $row['UPC Code']; ?>"
                                 jsbarcode-textmargin="0" jsbarcode-fontoptions="bold" jsbarcode-width="2" jsbarcode-height="50"
+                                jsbarcode-font="Anomoly"
                                 jsbarcode-fontSize="20">
                             </svg>
                         </div>
@@ -128,8 +129,9 @@ unset($_SESSION['excel_data']);
             if (qrData) {
                 var qr = new QRCode(element, {
                     text: qrData,
-                    width: 80,
-                    height: 80,
+                    width: 90,
+                    height: 90,
+                    bold: 100
                 });
             } else {
                 console.error("Data QR code tidak valid:", qrData);
